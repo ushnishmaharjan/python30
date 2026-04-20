@@ -74,6 +74,7 @@ a=["rock","paper","scissors"]
 while True:
     computer_choice = random.choice(a)
     input1= input("Enter rock, paper, or scissors: ")
+    print(f"Computer chose: {computer_choice}")
     user_choice = input1.lower()
     if (user_choice == "rock" and computer_choice == "scissors") : 
         user = user + 2
