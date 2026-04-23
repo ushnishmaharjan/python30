@@ -8,7 +8,7 @@ f.close()
 
 
 f=open('day11.py','a')
-f.write("this is data")
+f.write("#this is data")
 f.close()
 
 f=open('test.py','w')

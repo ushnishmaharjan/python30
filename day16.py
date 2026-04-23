@@ -25,8 +25,10 @@ class accountinfo:
         return balance
 
     def displayAccount(self):
-        print("--- Account Info ---")
-        return f"""Account Number: {self.__account_number}
+        
+        return f"""
+--- Account Info ---
+Account Number: {self.__account_number}
 Balance: {self.getBalance()}"""
 
 
