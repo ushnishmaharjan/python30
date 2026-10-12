@@ -37,7 +37,8 @@ def send_text_message(text):
     }
     r = requests.post(url=url, data=json.dumps(payload))
     print(r.json())
-obj=send_text_message('hello')
+obj=send_text_message('''Hello
+------------Today's top 10 NEWS-----------''')
 
 
 def send_picture_message():
